@@ -70,7 +70,12 @@ export default class SwipeableFlatlist extends Component {
           disableRightSwipe
           data={this.state.allNotifications}
           renderItem={this.renderItem}
-          renderHiddenItem={this.renderHiddenItem}
+
+          //HiddenItem={this.renderHiddenItem}
+          //renderHidden={this.renderHiddenItem}
+          //Hidden={this.renderHiddenItem}
+          //renderHiddenItem={this.renderHiddenItem}
+
           rightOpenValue={-Dimensions.get("window").width}
           previewRowKey={"0"}
           previewOpenValue={-40}

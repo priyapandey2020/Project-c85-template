@@ -60,7 +60,6 @@ export default class NotificationScreen extends Component{
 
 
   render(){
-    console.log(this.props.navigation)
     return(
       <View style={styles.container}>
         <View style={{flex:0.1}}>
@@ -75,7 +74,12 @@ export default class NotificationScreen extends Component{
               </View>
             )
             :(
-             <SwipableFlatlist allNotifications={this.state.allNotifications}/>
+
+             //<Swipablelist allNotifications={this.state.allNotifications}/>
+             //<SwipableFlatlist allNotifications={this.allNotifications}/>
+             //<SwipableFlatlist allNotifications={this.state.allNotifications}/>
+             //<SwipableFlatlist allNotifications={allNotifications}/>
+
             )
           }
         </View>
